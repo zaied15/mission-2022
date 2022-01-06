@@ -160,3 +160,19 @@ body {
   height: 350px;
   margin-bottom: 20px;
 }
+
+/* Footer Area CSS Style */
+.footer-area {
+  margin-top: 100px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 40px 0 50px;
+}
+.footer-area h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0;
+}
