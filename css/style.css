@@ -109,12 +109,13 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .featured-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 54px;
+  margin: 0;
 }
 .width-40 {
   width: 40%;
@@ -159,6 +160,45 @@ body {
   width: 80%;
   height: 350px;
   margin-bottom: 20px;
+}
+
+/* Contact Area CSS Style */
+.contact-area {
+  margin: 150px 50px 0;
+}
+
+.contact-address {
+  background: url(../images/illustrators/contact.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.contact-address h5 {
+  margin: 0;
+}
+.contact-us {
+  margin-left: 50px;
+}
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 70%;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.submit {
+  background: #ff5959;
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
 }
 
 /* Footer Area CSS Style */
