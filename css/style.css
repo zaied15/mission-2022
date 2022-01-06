@@ -48,6 +48,8 @@ body {
 }
 .half-width img {
   width: 90%;
+  display: block;
+  margin-left: auto;
 }
 
 /* Mission Area Style CSS */
@@ -79,7 +81,7 @@ body {
 #mission-3 {
   background: #fff4d6;
 }
-.single-mission h4 {
+.single-mission-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -91,14 +93,15 @@ body {
 .single-mission img {
   width: 50%;
   margin-bottom: 15px;
+  display: block;
+  margin-left: 0;
 }
 
 /* Develop Area CSS Style */
 .develop-area {
   margin: 100px 50px 0;
 }
-.develop-img img,
-.global-img img {
+.featured-img img {
   width: 95%;
 }
 .featured-text {
@@ -131,4 +134,29 @@ body {
   display: block;
   margin-left: auto;
   margin-right: 0;
+}
+
+/* Team Members Area Start */
+.team-area {
+  margin: 130px 50px 0;
+}
+.team-members {
+  margin-top: 30px;
+}
+.single-member {
+  text-align: center;
+  padding: 10px;
+  width: 22%;
+  margin: 2%;
+  border: 5px solid;
+  border-image: linear-gradient(180deg, #ff5959, orange);
+  border-image-slice: 1;
+}
+.single-member h4 {
+  margin: 0;
+}
+.single-member img {
+  width: 80%;
+  height: 350px;
+  margin-bottom: 20px;
 }
